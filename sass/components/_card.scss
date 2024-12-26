@@ -48,10 +48,10 @@
         
      }
      &--2{
-        background-image: url(../../public/imgs/nat-5.jpg);
+        background-image: url(../../imgs/nat-5.jpg);
      }
      &--3{
-        background-image: url(../../public/imgs/nat-5.jpg)''
+        background-image: url(../../imgs/nat-5.jpg)''
      }
   }
 
@@ -69,7 +69,7 @@
 
   &__heading-span{
     padding: 1rem 1.5rem;
-    -web-kit-box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
     &--1{
         background-image: linear-gradient(to right bottom,
