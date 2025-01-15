@@ -1,0 +1,67 @@
+.footer {
+    background-color: $color-grey-dark-3;
+    color: $color-grey-light-1;
+    padding: 10rem 2rem; // Add padding for mobile view
+    font-size: 1.4rem;
+    
+    &__logo-box {
+      text-align: center;
+      margin-bottom: 5rem; // Reduced margin for better spacing
+    }
+  
+    &__logo {
+      width: 12rem; // Smaller size for responsiveness
+      height: auto;
+    }
+  
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap; // Makes columns responsive
+      gap: 3rem;
+    }
+  
+    &__list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    &__item {
+      margin-bottom: 1rem; // Ensure vertical spacing between items
+    }
+  
+    &__link {
+      &:link,
+      &:visited {
+        color: $color-grey-light-1;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        transition: color 0.3s ease;
+      }
+  
+      &:hover,
+      &:active {
+        color: $color-primary;
+        text-decoration: underline;
+        box-shadow: none; // Remove box-shadow for cleaner hover effect
+      }
+    }
+  
+    &__copyright {
+      font-size: 1.2rem; // Slightly smaller for subtlety
+      text-align: center;
+  
+      a {
+        color: $color-primary;
+        text-decoration: none;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  
